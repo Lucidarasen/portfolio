@@ -711,3 +711,78 @@ span {
     font-size: 17px;
   }
 }
+
+@media (max-width: 450px) {
+  header {
+    position: relative;
+    padding: 1rem;
+  }
+
+  .about {
+    padding: 4rem;
+  }
+
+  section.home .home-detail p {
+    font-size: 13px;
+  }
+
+  .home {
+    padding: 8rem;
+  }
+
+  a.btn {
+    font-size: 12px;
+  }
+
+  .input-box-btn .btn {
+    font-size: 12px;
+  }
+
+  .navbar {
+    margin-top: 10px;
+  }
+
+  .footer .footer-text p {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .education .heading {
+    font-size: 23px;
+    margin-top: 1rem;
+  }
+
+  .future-plans .heading {
+    font-size: 23px;
+    margin-top: 1rem;
+  }
+
+  .future-plans .plan-text {
+    font-size: 15px;
+  }
+
+  .portfolio .heading {
+    font-size: 25px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .portfolio {
+    padding: 25px 5% 25px;
+  }
+
+  .portfolio .portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .portfolio-box .portfolio-layer h4 {
+    font-size: 20px;
+  }
+
+  .portfolio-box .portfolio-layer p {
+    font-size: 15px;
+  }
+}
